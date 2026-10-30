@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Room Booking Form</title>
+</head>
+<body>
+
+    <div style="border: 3px solid black; width: 850px; margin: auto; text-align: center; padding: 20px;">
+
+        <h1 style="font-size: 50px;">Hotel Room Booking Form</h1>
+
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" style="width: 300px; height: 30px;">
+            <br><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" style="width: 300px; height: 30px;">
+            <br><br>
+
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" style="width: 310px; height: 30px;">
+            <br><br>
+
+            <label for="checkin">Check-in Date:</label>
+            <input type="date" id="checkin" name="checkin">
+            <br><br>
+
+            <label for="checkout">Check-out Date:</label>
+            <input type="date" id="checkout" name="checkout">
+            <br><br>
+
+            <label for="room">Room Type:</label>
+            <select id="room" name="room">
+                <option>Single Room</option>
+                <option>Double Room</option>
+                <option>Deluxe Room</option>
+                <option>Suite</option>
+            </select>
+            <br><br>
+
+            <label for="guests">Number of Guests:</label>
+            <input type="number" id="guests" name="guests" min="1" style="width: 110px; height: 30px;">
+            <br><br>
+
+            <label for="requests">Special Requests:</label>
+            <br>
+            <textarea id="requests" name="requests" rows="5" cols="60"></textarea>
+            <br><br>
+
+            <input type="submit" value="Book Now">
+            <input type="reset" value="Reset Form">
+
+        </form>
+
+    </div>
+
+</body>
+</html>
